@@ -1,0 +1,53 @@
+.header {
+    background: #fff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+    background: linear-gradient(90deg, #2ecc71, #e67e22);
+    color: #fff;
+}
+
+.header-actions button,
+.header-actions a {
+    margin-left: 8px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+.header {
+    position: sticky;
+    /* or use 'fixed' for always fixed */
+    top: 0;
+    z-index: 1000;
+    /* ensures it stays above other content */
+}
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+}
