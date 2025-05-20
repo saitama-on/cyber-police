@@ -1,4 +1,4 @@
-.header {
+/* .header {
     background: #fff;
 }
 
@@ -41,13 +41,74 @@
 
 .header {
     position: sticky;
-    /* or use 'fixed' for always fixed */
+   
     top: 0;
     z-index: 1000;
-    /* ensures it stays above other content */
+    
 }
 
 .header {
     width: 100%;
     box-sizing: border-box;
+} */
+
+
+.header {
+    background: #fff;
+    position: sticky;
+    /* or use 'fixed' for always fixed */
+    top: 0;
+    z-index: 1000;
+    /* ensures it stays above other content */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+    background: linear-gradient(90deg, #2ecc71, #e67e22);
+    color: #fff;
+}
+
+.header-actions button,
+.header-actions a {
+    margin-left: 8px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    border: 2px solid #007bff;
+    /* Blue border around the entire ul */
+    border-radius: 20px;
+    /* Rounded corners to match the "Skip to Main Content" button */
+    padding: 5px 15px;
+    /* Padding inside the border for spacing */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+/* Optional: Add hover effect for better UX */
+.navbar a:hover {
+    color: #007bff;
+    /* Change text color on hover for better UX */
 }
