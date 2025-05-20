@@ -9,10 +9,13 @@ const Hero: React.FC = () => (
             backgroundImage: `linear-gradient(120deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.3) 100%), url("${heroBg}")`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            minHeight: '340px',
+            backgroundRepeat: 'no-repeat',
+            height: '100vh', // <-- This is the key!
             display: 'flex',
             alignItems: 'center',
-            color: '#fff'
+            color: '#fff',
+            margin: 0, // Remove any margin
+            padding: 0, // Remove any padding
         }}
     >
         <div className="hero-content">
@@ -20,6 +23,8 @@ const Hero: React.FC = () => (
             <h2>साइबर पुलिस<br />छत्तीसगढ़</h2>
         </div>
     </section>
+
+
 );
 
 export default Hero;
