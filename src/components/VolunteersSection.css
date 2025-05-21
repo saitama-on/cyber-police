@@ -1,0 +1,131 @@
+.volunteers-section {
+    background: #fff;
+    padding: 48px 0 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.volunteers-title {
+    font-size: 2.2rem;
+    color: #1a2344;
+    font-weight: 700;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.volunteers-content {
+    display: flex;
+    gap: 32px;
+    max-width: 1100px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.volunteers-left {
+    flex: 1;
+    min-width: 320px;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.volunteers-plan-title {
+    background: #e5f4e2;
+    color: #1a2344;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.volunteers-plan-desc {
+    font-size: 1.08rem;
+    color: #222;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.volunteer-img {
+    width: 100%;
+    max-width: 340px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-self: center;
+    box-shadow: 0 2px 12px #0001;
+}
+
+.volunteers-right {
+    flex: 2;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.volunteers-box {
+    background: #fff7f0;
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 6px #0001;
+}
+
+.volunteers-box-title {
+    background: #ffe0b2;
+    color: #1a2344;
+    font-weight: bold;
+    font-size: 1.15rem;
+    padding: 6px 0 6px 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.volunteers-box ul {
+    margin: 0;
+    padding-left: 24px;
+    color: #333;
+    font-size: 1rem;
+}
+
+.volunteers-cta-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.volunteers-cta-btn {
+    background: #ff3d3d;
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: bold;
+    padding: 16px 56px;
+    border-radius: 32px;
+    text-decoration: none;
+    box-shadow: 0 2px 12px #0002;
+    transition: background 0.2s;
+    letter-spacing: 1px;
+}
+
+.volunteers-cta-btn:hover {
+    background: #e53935;
+}
+
+@media (max-width: 900px) {
+    .volunteers-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .volunteers-left,
+    .volunteers-right {
+        max-width: 98vw;
+        width: 100%;
+    }
+}

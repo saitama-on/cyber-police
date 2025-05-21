@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import NewsSection from './components/NewsSection';
 import CyberAwareness from './components/CyberAwareness';
 import PoemSection from './components/PoemSection';
+import VolunteersSection from './components/VolunteersSection';
 // Import other components as you create them, e.g.:
 // import Hero from './components/Hero';
 // import Contact from './components/Contact';
@@ -18,6 +19,8 @@ function App() {
       <NewsSection />
       <CyberAwareness />
       <PoemSection />
+      <VolunteersSection />
+
       {/* <Hero /> */}
       {/* <Contact /> */}
       {/* Add other components here as you build them */}
