@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import NewsSection from './components/NewsSection';
+import CyberAwareness from './components/CyberAwareness';
 // Import other components as you create them, e.g.:
 // import Hero from './components/Hero';
 // import Contact from './components/Contact';
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Contact />
       <NewsSection />
+      <CyberAwareness />
       {/* <Hero /> */}
       {/* <Contact /> */}
       {/* Add other components here as you build them */}
