@@ -33,3 +33,19 @@
     margin: 16px 0 0 0;
     font-family: inherit;
 }
+
+.nav-link {
+    background: none;
+    border: none;
+    color: #222;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #1976d2;
+}

@@ -10,12 +10,12 @@ const Hero: React.FC = () => (
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            height: '100vh', // <-- This is the key!
+            height: '100vh', 
             display: 'flex',
             alignItems: 'center',
             color: '#fff',
-            margin: 0, // Remove any margin
-            padding: 0, // Remove any padding
+            margin: 0, 
+            padding: 0, 
         }}
     >
         <div className="hero-content">
