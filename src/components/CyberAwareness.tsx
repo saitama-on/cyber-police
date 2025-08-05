@@ -7,6 +7,7 @@ const awarenessData = [
     {
         image: awareness1,
         alt: 'COVID-19 Awareness',
+        caption:"test caption"
 
     },
 
